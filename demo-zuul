@@ -1,3 +1,10 @@
+server:
+  port: 8769
+
+spring:
+  application:
+    name: demo-zuul
+
 eureka:
   client:
     serviceUrl:
