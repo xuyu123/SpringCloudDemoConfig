@@ -7,7 +7,7 @@ zuul:
   routes:
     api-a:
       path: /api-a/**
-      service-id: demo-ribbon
+      service-id: ribbon
     api-b:
       path: /api-b/**
-      service-id: demo-feign
+      service-id: feign
